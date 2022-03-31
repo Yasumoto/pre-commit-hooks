@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.version = '0.0.0'
   s.authors = ['Paul Morgan']
   s.summary = 'pre-commit hooks for ruby projects'
-  s.description = 'pre-commit hooks for ruby projects'\
+  s.description = 'pre-commit hooks for ruby projects'
   s.add_dependency 'activesupport', '5.2.4' # supposedly neededd by rubocop-rails
   s.add_dependency 'bigdecimal' # needed by reek
   s.add_dependency 'bundler-audit'
